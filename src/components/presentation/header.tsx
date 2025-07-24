@@ -19,17 +19,11 @@ export function HeroPresentation() {
           <div className="text-center lg:text-left pt-32">
             <div className="mb-8 inline-flex items-center">
               <Typography
-                variant="small"
-                className="mr-3 py-0.5 px-3 font-bold text-dark uppercase border-r border-dark"
-              >
-                New
-              </Typography>
-              <Typography
                 color="dark"
                 variant="small"
                 className="flex items-center font-bold uppercase"
               >
-                Astro Starter Template
+                Donatello Peinture
               </Typography>
             </div>
             <Typography

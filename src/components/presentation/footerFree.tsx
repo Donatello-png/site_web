@@ -104,7 +104,7 @@ export function Footer() {
               variant="h4"
               className="mb-2 !font-semibold !text-primary"
             >
-              AstroLaunch UI
+              Donatello Peinture
             </Typography>
             <Typography className="text-md mt-0 mb-2 font-normal !text-gray-600">
               Easy to use for Tailwind CSS and Material Design.
@@ -205,7 +205,7 @@ export function Footer() {
             <div className="text-md mt-2 py-1 font-normal text-gray-600">
               Copyright &copy; {YEAR}{" "}
               <a href="/" className="text-inherit transition-all">
-                AstroLaunch UI
+                Donatello Peinture
               </a>{" "}
               by{" "}
               <a
@@ -214,7 +214,7 @@ export function Footer() {
                 rel="noreferrer"
                 className="text-inherit transition-all"
               >
-                Creative Tim. Made with ❤️ for a better web.
+                Edouard MANGEL
               </a>
             </div>
           </div>

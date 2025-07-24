@@ -7,8 +7,7 @@ export default function Footer() {
           © <script>
             document.write(new Date().getFullYear()) 
           </script>
-          &nbsp;AstroLaunch UI by
-          <a href="https://www.creative-tim.com" className="text-secondary ms-1" target="_blank">Creative Tim</a>.
+          &nbsp;Donatello Peinture. Made with <a href="https://www.astro.build" className="text-secondary ms-1" target="_blank">Astro</a> and <a href="https://react.dev" className="text-secondary ms-1" target="_blank">React</a>.
         </div>
       </footer>
     </>

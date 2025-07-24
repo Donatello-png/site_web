@@ -1,7 +1,7 @@
 {
-  "name": "astro-launch-ui",
+  "name": "donatello-peinture-lp",
   "version": "1.0.0",
-  "description": "The ultimate starter template for your startup web project",
+  "description": "Site web pour Donatello Peinture",
   "main": "assets/js/astro-launch-ui.min.js",
   "scripts": {
     "dev": "astro dev",
@@ -12,23 +12,12 @@
     "create-free-demo": "node create-free-demo.js"
   },
   "keywords": [
-    "Astro",
     "Startup",
-    "Corporate",
-    "Store Theme",
+    "Courtier en peinture",
     "Online Store",
-    "Startup template",
-    "Astro startup",
-    "Astro Startup",
-    "Astro store",
-    "Store theme",
-    "Startup theme",
-    "Astro Startup theme",
-    "Astro Startup store",
-    "Astro template",
-    "Astro store template"
+    "Magasin de peinture"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "Edouard MANGEL <edouard@lacrafterie.tech> (https://lacrafterie.tech)",
   "license": "MIT",
   "dependencies": {
     "@astrojs/react": "^4.2.2",
@@ -53,13 +42,5 @@
     "sass": "^1.55.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/astro-launch-ui.git"
-  },
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/astro-launch-ui/issues"
-  },
-  "homepage": "https://www.creative-tim.com/astro/launch-ui/"
+  }
 }

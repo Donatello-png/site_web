@@ -220,7 +220,7 @@ export function Footer() {
             <div className="text-md mt-2 py-1 font-normal text-gray-600">
               Copyright &copy; {YEAR}{" "}
               <a href="/" className="text-inherit transition-all">
-                AstroLaunch UI
+                Donatello Peinture
               </a>{" "}
               by{" "}
               <a
@@ -229,7 +229,7 @@ export function Footer() {
                 rel="noreferrer"
                 className="text-inherit transition-all"
               >
-                Creative Tim. Made with ❤️ for a better web.
+                Edouard MANGEL
               </a>
             </div>
           </div>
