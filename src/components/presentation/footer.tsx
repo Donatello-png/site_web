@@ -84,17 +84,6 @@ export function Footer() {
               </a>
             </div>
           </div>
-          <div className="ml-auto w-full px-4 text-center md:w-4/12 md:px-0 md:text-right">
-            <a href="https://nepcha.com?ref=astrolaunch-ui">
-              <img
-                src="https://nepcha.com/img/media/badges/analytics-by-nepcha-black-transparent.png"
-                className="mx-auto lg:mr-0 lg:ml-auto"
-                alt="nepcha"
-                width={250}
-                height={250}
-              />
-            </a>
-          </div>
         </div>
       </div>
     </footer>
