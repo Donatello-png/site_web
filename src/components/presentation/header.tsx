@@ -28,18 +28,11 @@ export function HeroPresentation() {
               color="blue-gray"
               className="mb-8 lg:mr-32 leading-tight font-black"
             >
-              The perfect foundation for your <span className="text-blue">Astro Project</span>
+              Ensemble, réinventons l'achat de peinture avec <span className="text-blue">Donatello Peinture</span>
             </Typography>
             <Typography variant="lead" color="blue-gray" className="lg:pr-32">
-              AstroLaunch UI is a free template designed to be both lightweight and feature-rich. It comes packed with everything you need to get your Online Store ready in no time.
+              Téléphone, papier, mails... Passons dans l'ère du digital pour fluidifier les achats de matériel de peinture.
             </Typography>
-            <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
-              <a href="#pricing">
-                <Button color="dark" className="flex items-center">
-                  Get Started
-                </Button>
-              </a>
-            </div>
           </div>
         </div>
         <div className="hidden lg:flex">
