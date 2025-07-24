@@ -261,23 +261,7 @@ function NavList() {
   return (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
       <NavListMenu />
-      <AccountListMenu />
 
-      {navListItems.map(({ label, icon }, key) => (
-        <Typography
-          key={label}
-          as="a"
-          href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
-          variant="small"
-          color="blue-gray"
-          className="font-normal"
-        >
-          <MenuItem className="flex items-center gap-2 lg:rounded-full">
-            {React.createElement(icon, { className: "h-[18px] w-[18px]" })}{" "}
-            {label}
-          </MenuItem>
-        </Typography>
-      ))}
     </ul>
   );
 }
@@ -326,7 +310,7 @@ export default function ComplexNavbar() {
           Donatello peinture
         </Typography>
         <div className="hidden lg:flex ml-auto">
-          <NavList />
+
         </div>
         <IconButton
           size="sm"
@@ -337,18 +321,13 @@ export default function ComplexNavbar() {
         >
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
-        <a href="https://discord.gg/WCvQWMwT" target="_blank">
-          <Button size="sm" color="dark" variant="text">
-            <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
-          </Button>
-        </a>
         <a href="https://github.com/creativetimofficial/astro-launch-ui" target="_blank">
           <Button size="sm" color="dark" variant="text">
             <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="/astro-launch-ui/#examplePages">
-          <Button color="dark">Get started</Button>
+        <a href="mailto:contact@donatello-peinture.com">
+          <Button color="dark">Nous contacter</Button>
         </a>
       </div>
       <Collapse open={isNavOpen} className="overflow-scroll">
